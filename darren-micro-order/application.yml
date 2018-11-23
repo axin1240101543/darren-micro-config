@@ -1,0 +1,6 @@
+spring.profiles.active: dev
+server.port: 7771
+eureka.client.service-url.defaultZone: http://root:1234@register1:8761/eureka/,http://root:1234@register2:8762/eureka/,http://root:1234@register3:8763/eureka/
+eureka.client.healthcheck.enabled: true
+eureka.instance.instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
+eureka.instance.prefer-ip-address: true
