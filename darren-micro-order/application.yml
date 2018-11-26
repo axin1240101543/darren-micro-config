@@ -4,4 +4,4 @@ eureka.client.healthcheck.enabled: true
 eureka.instance.instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
 eureka.instance.prefer-ip-address: true
 
-test: '{cipher}e53b0778de0acaa731b6f1b22075519891703aee7fbec5fe997c278880e1f88b'
+test: '{cipher}AQB/EFS/6ze62W0zAqg1rK7YUNZ6c+nCF9A5xNdId82lkSOm1MKVAcAh9hAEBpHLUo+B33KfIgVdNqOwx3yp72JgqZP5gIezQm0o6IrD96nuHci4JMu5o9iw4RhT8uPE95SPEPXHU5Q3HLzx1/Hvg0eNZAi5Jo78ktGgthKloHb0arhIoSH1kNucGpv/8r9A5uJlLIlboaTU6V/wYf/SqPM75E1ToL7ICPAwo5ShsXptLnT7N/yx/x71HZAKkeMO5NsL/QHCxw5G/R2oklh6agNz5PlurWQm9HYWswNV9HC+LgCg7Q9Ko0OemrfsMBNFK5mFtJl+rGXVBIWBMj7cwTtqFMgJmhw7EQTWd7xmBDRa2AfgRDfJrD5Ta83NI8zUuew='
