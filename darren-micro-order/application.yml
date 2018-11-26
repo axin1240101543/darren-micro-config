@@ -4,4 +4,4 @@ eureka.client.healthcheck.enabled: true
 eureka.instance.instance-id: ${spring.cloud.client.ip-address}:${spring.application.instance_id:${server.port}}
 eureka.instance.prefer-ip-address: true
 
-test: '{cipher}dd741fea3bc5d58b3af8fbf2240b594d6d55daf59376d7b89010fa338b8eb8fc'
+test: '{cipher}91939cd5510dc658c732d9ce39b35e845fa320951c63cfc12f7247eaed9287e8'
